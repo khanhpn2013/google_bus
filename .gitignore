@@ -33,4 +33,5 @@ rerun.txt
 pickle-email-*.html
 .project
 config/initializers/secret_token.rb
->>>>>>> f31f66000209a8fa4b92f8e5b148d45d1573ffc2
+db/schema.rb
+db/seeds.rb

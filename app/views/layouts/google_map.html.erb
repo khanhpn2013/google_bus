@@ -1,14 +1,10 @@
 <meta charset="utf-8" />
-<title>Google</title>
-
-<style>
-  #map-canvas {
-    height: 81%;
-    margin: -16.7px;
-    padding: 60px
-  }
-</style>
-
+<head>
+  <title><%= full_title(yield(:title)) %></title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
   <script type="text/javascript"
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqAmcqQTrwsmAIpTcqMQQIeA9v85YrQOU&sensor=true">
   </script>
@@ -28,6 +24,5 @@
 
 <body>
   <%= yield %>
-  <div id="map-canvas"></div>
 </body>
 </html>

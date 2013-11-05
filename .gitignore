@@ -35,3 +35,4 @@ pickle-email-*.html
 config/initializers/secret_token.rb
 db/schema.rb
 db/seeds.rb
+*.swp
